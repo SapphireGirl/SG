@@ -47,16 +47,18 @@ e.  I need to complete the work on the repositories and probably utilize factori
 	and validation.  More to come on that.
 
 
-	While I work part time currently and I have various other responsibilities this project has taken a pretty high priority
-	and to manage my tasks I have been using Trello to set up my task lists and track my done tasks.
-	I am always looking for a great way to track tasks in programming (yes beside the obvious, getting VS2012 and Team Foundation
-	Studio) so any suggestions along those lines will be greatly appreciated.
+While I work part time currently and I have various other responsibilities this project has taken a pretty 
+high priority and to manage my tasks I have been using Trello to set up my task lists and track my done tasks.
+I am always looking for a great way to track tasks in programming (yes beside the obvious, getting VS2012 
+and Team Foundation Studio) so any suggestions along those lines will be greatly appreciated.
 
-	This is definitely a work in progress and managing state, configuration settings in config files and managing 3rd party API's thru nuget are also topics that need to be explored.
+This is definitely a work in progress and managing state, configuration settings in config files and managing 3rd party API's thru nuget are also topics that need to be explored.
 
-	The goal for me is to have these topics under my belt by the spring of 2014 so I can start getting really creative.  I also want to dive into MVC 4 using knockout and various other javascript libraries.  I also have a project along that line that I will update Github with.
+The goal for me is to have these topics under my belt by the spring of 2014 so I can start getting really creative.  I also want to dive into MVC 4 using knockout and various other javascript libraries.  I also have a project along that line that I will update Github with.
 
-	Cherrio!   Blogs on how I solved many of these problems are soon to come. 
+Cherrio!   Blogs on how I solved many of these problems are soon to come. 
 
-	@SapphireGirl10
+@SapphireGirl10
 	
+Oh, and FYI, Yes, the console app is hacking.  I just wanted to create my db and test it out whether it be the
+production DB or the _Test DB.
