@@ -1,0 +1,46 @@
+﻿<Window MaxWidth="1000" x:Class="SG.WPF.Shell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://www.codeplex.com/prism" 
+        xmlns:Util="clr-namespace:SG.Util;assembly=SG.Util" 
+        Title="SapphireGirl Web Application" >
+    <Grid x:Name="ShellLayoutGrid" Background="Azure">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="585"/>
+            <ColumnDefinition Width="375"/>
+            
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="275" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="185" />
+            <RowDefinition Height="400" />
+           
+        </Grid.RowDefinitions>
+        
+       
+            <!-- Banner-->
+            <ContentControl Height="275" Width="960"
+			Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" 
+			prism:RegionManager.RegionName="{x:Static Util:RegionNames.BannerRegion}" />
+            <!--  Menu -->
+            
+            <ContentControl Height="100" Width="575" 
+			Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="1" 
+			prism:RegionManager.RegionName="{x:Static Util:RegionNames.MenuRegion}" />
+            <!-- Content -->
+            <ContentControl Height="585" Width="575" 
+			Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="1" 
+			prism:RegionManager.RegionName="{x:Static Util:RegionNames.ContentRegion}"  />
+            <!--  Video -->
+            <ContentControl Height="385" Width="385"
+			Grid.Row="2" Grid.Column="1" 
+			prism:RegionManager.RegionName="{x:Static Util:RegionNames.VideoRegion}"/>
+            <!--  Social -->
+            <ContentControl Height="300" Width="385"
+			Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="1" 
+			prism:RegionManager.RegionName="{x:Static Util:RegionNames.SocialRegion}" />
+       
+    
+    </Grid>
+</Window>

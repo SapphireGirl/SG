@@ -1,0 +1,10 @@
+/************* Script for SelectTopNRows for SSMS *****/
+SELECT TOP 1000 [Users]
+.[FirstName]
+,[LastName]
+,[CreationDate]
+,[UserAddress_StreetAddress]
+,[UserAddress_City]
+,[UserAddress_Region]
+,[UserAddress_Zipcode]
+FROM [SGDatabase].[dbo].[Users]
