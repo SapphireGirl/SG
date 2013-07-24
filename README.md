@@ -54,7 +54,7 @@ and Team Foundation Studio) so any suggestions along those lines will be greatly
 
 This is definitely a work in progress and managing state, configuration settings in config files and managing 3rd party API's thru nuget are also topics that need to be explored.
 
-The goal for me is to have these topics under my belt by the spring of 2014 so I can start getting really creative.  I also want to dive into MVC 4 using knockout and various other javascript libraries.  I also have a project along that line that I will update Github with.
+The goal for me is to have these topics under my belt by Christmas 2013 so I can start getting really creative.  I also want to dive into MVC 4 using knockout and various other javascript libraries.  I also have a project along that line that I will update Github with.
 
 Cherrio!   Blogs on how I solved many of these problems are soon to come. 
 
